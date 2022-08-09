@@ -14,6 +14,7 @@
 		7B5F32C128A2BBED00A5678F /* SpotifyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F32C028A2BBED00A5678F /* SpotifyCloneTests.swift */; };
 		7B5F32CB28A2BBED00A5678F /* SpotifyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F32CA28A2BBED00A5678F /* SpotifyCloneUITests.swift */; };
 		7B5F32CD28A2BBED00A5678F /* SpotifyCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F32CC28A2BBED00A5678F /* SpotifyCloneUITestsLaunchTests.swift */; };
+		7B5F32DC28A2F74300A5678F /* SpotifyLogPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F32DB28A2F74300A5678F /* SpotifyLogPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B5F32C628A2BBED00A5678F /* SpotifyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5F32CA28A2BBED00A5678F /* SpotifyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITests.swift; sourceTree = "<group>"; };
 		7B5F32CC28A2BBED00A5678F /* SpotifyCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B5F32DB28A2F74300A5678F /* SpotifyLogPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLogPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7B5F32AF28A2BBEC00A5678F /* SpotifyCloneApp.swift */,
 				7B5F32B128A2BBEC00A5678F /* ContentView.swift */,
+				7B5F32DB28A2F74300A5678F /* SpotifyLogPage.swift */,
 				7B5F32B328A2BBED00A5678F /* Assets.xcassets */,
 				7B5F32B528A2BBED00A5678F /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				7B5F32B228A2BBEC00A5678F /* ContentView.swift in Sources */,
 				7B5F32B028A2BBEC00A5678F /* SpotifyCloneApp.swift in Sources */,
+				7B5F32DC28A2F74300A5678F /* SpotifyLogPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
