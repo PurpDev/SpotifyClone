@@ -16,7 +16,7 @@ struct SpotifyLogPage: View {
          
             TextField("Email address or username", text: $name).frame(width: 260).padding().foregroundColor(.black) .font(.headline) .background(Color.white)
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 25)).overlay(Capsule().stroke(Color.black)).frame(width: 300)
-            TextField("Password", text: $name).frame(width: 260).padding().foregroundColor(.black) .font(.headline) .background(Color.white)
+            SecureField("Password", text: $password).frame(width: 260).padding().foregroundColor(.black) .font(.headline) .background(Color.white)
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 25)).overlay(Capsule().stroke(Color.black)).frame(width: 300).padding()
             
             Button {
